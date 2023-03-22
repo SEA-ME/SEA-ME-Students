@@ -10,3 +10,5 @@
 - A paragraph about yourself.
 ## Project Links:
 - Links to your SEA:ME repositories.
+- [SEA:ME warm-up](https://github.com/Alexart1995/SEA-ME-warm-up)
+- [SEA:ME Pilot project 1](https://github.com/Alexart1995/Pilot-Project-1)
