@@ -8,9 +8,10 @@ Michael
 12190588@inha.edu
 ## LinkedIn:
 ## Slack ID: 
-## GitHub ID:W
+Minchan Jung
+## GitHub ID:
 MC00614
-## About me: WW
+## About me: 
 - A paragraph about yourself.
 ## Project Links:
 - Links to your SEA:ME repositories.
