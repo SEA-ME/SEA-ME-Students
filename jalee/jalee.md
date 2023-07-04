@@ -5,6 +5,6 @@
 ## Email ID: dlwohk777@kookmin.ac.kr
 ## LinkedIn: no
 ## Slack ID: dlwohk777@kookmin.ac.kr
-## GitHub ID: dlwohk777@kookmin.ac.kr
+## GitHub ID: leeoodol
 ## About me: hi im from s korea
 ## Project Links:
