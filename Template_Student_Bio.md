@@ -9,5 +9,4 @@
 ## About me: 
 - A paragraph about yourself.
 ## Project Links:
-- SEA-ME-Students
-https://github.com/SEA-ME/SEA-ME-Students.
+- Links to your SEA:ME repositories.
