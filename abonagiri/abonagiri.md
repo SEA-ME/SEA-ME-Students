@@ -3,7 +3,7 @@
 ## Call me by this name: Abhinav
 ## Cohort: July 2023
 ## Email ID: Abhinavbonagiri@gmail.com
-## LinkedIn:
+## LinkedIn:https://www.linkedin.com/in/abhinav-b-086b50239?trk=contact-info
 ## Slack ID: Abhinav B
 ## GitHub ID:abhinav2304
 ## About me: 
