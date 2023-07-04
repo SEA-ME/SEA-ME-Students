@@ -3,7 +3,7 @@
 ## Call me by this name: Jinholee
 ## Cohort: July 2023
 ## Email ID: jinholee@student.42seoul.kr
-## LinkedIn:
+## LinkedIn: www.linkedin.com/in/jinhong-lee-63103a268
 ## Slack ID: Jinhong Lee
 ## GitHub ID: Lagavulin9
 ## About me: 
