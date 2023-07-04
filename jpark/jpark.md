@@ -14,6 +14,8 @@ Jaden Park
 ## GitHub ID:
 jehyngn
 ## About me: 
-- A paragraph about yourself.
+- Hallo! 
+I'm from KMU, South Korea.
+I am studing in Department of Automobile and IT convergence.
 ## Project Links:
 - Links to your SEA:ME repositories.
