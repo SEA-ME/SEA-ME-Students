@@ -1,6 +1,6 @@
 # FirstName LastName (Unique ID)
 ## Profile Pic: 
-<img src="C:\Users\kruna\Desktop\IMG_20210427_094954_345_102850__01__01[171].jpg" alt="image" width="30%">  
+![krunal](IMG_20210427_094954_345_102850__01__01%5B171%5D.jpg) 
 
 ## Call me by this name: Krunal
 ## Cohort: July2023
