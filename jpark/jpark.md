@@ -1,5 +1,5 @@
 # FirstName LastName (Unique ID)
-Jaehyeong Paqrk
+Jaehyeong Park (jpark)
 ## Profile Pic:
 
 ## Call me by this name: 
@@ -8,7 +8,7 @@ Jaden
 ## Email ID: 
 wpgud1227@kookmin.ac.kr
 ## LinkedIn:
-
+www.linkedin.com/in/jehyngn
 ## Slack ID: 
 Jaden Park
 ## GitHub ID:
