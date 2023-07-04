@@ -19,4 +19,4 @@ I'm from KMU, South Korea.
 I am studing in Department of Automobile and IT convergence.
 Nice to meet you!
 ## Project Links:
-- Links to your SEA:ME repositories.
+- https://github.com/jehyngn/SEA-ME-Students
