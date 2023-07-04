@@ -3,7 +3,7 @@
 ## Call me by this name: junho
 ## Cohort: July 2023
 ## Email ID: jhk00@kookmin.ac.kr
-## LinkedIn: junho kim
+## LinkedIn: www.linkedin.com/in/junho-kim-3b007b1b9
 ## Slack ID: Junho Kim
 ## GitHub ID: junho2000
 ## About me:
