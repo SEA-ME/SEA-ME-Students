@@ -3,7 +3,7 @@
 ## Call me by this name: Shuta
 ## Cohort: July 2023
 ## Email ID: 12d1e436-454a-4422-81be-5b4353a4454e@anonaddy.me
-## LinkedIn: Shuta Ogura
+## LinkedIn: shuta-ogura-4b1650261
 ## Slack ID: Shuta Ogura
 ## GitHub ID: Shuta-syd
 ## About me: 
