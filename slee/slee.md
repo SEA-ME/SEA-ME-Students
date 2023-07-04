@@ -3,7 +3,7 @@
 ## Call me by this name: Lee
 ## Cohort: July 2023
 ## Email ID: lmk2215@gmail.com 
-## LinkedIn: 
+## LinkedIn: SEUNGWOO LEE
 ## Slack ID: SEUNGWOO LEE
 ## GitHub ID: SeungWoo-L
 ## About me: 
