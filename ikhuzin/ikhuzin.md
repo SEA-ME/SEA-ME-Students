@@ -9,4 +9,4 @@
 ## About me: 
 -Graduated Kazan State Power Univercity with a specialization in energy conversation, now seame Im participate
 ## Project Links:
-- Links to your SEA:ME repositories.
+- Links to your SEA:ME repositories. !
