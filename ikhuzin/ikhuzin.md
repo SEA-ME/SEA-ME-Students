@@ -7,6 +7,6 @@
 ## Slack ID: Ilgizar Khuzin
 ## GitHub ID: welida42
 ## About me: 
--Graduated Kazan State Power Univercity with a specialization in energy conversation, now seame participate
+-Graduated Kazan State Power Univercity with a specialization in energy conversation, now seame Im participate
 ## Project Links:
 - Links to your SEA:ME repositories.
