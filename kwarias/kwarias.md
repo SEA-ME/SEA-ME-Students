@@ -1,14 +1,19 @@
 # FirstName kwarias
 ## Profile Pic: 
 <a> <img src="https://avatars.githubusercontent.com/u/55065075?v=4" height="auto" width="500" > </a>
-## Call me by this name: Kian
-## Cohort: July 2023
-## Email ID: kian@warias.eu
-## LinkedIn: @Kian David Warias
+## Call me by this name: 
+Kian
+## Cohort: 
+July 2023
+## Email ID: 
+kian@warias.eu
+## LinkedIn: 
+@Kian David Warias
 ## Slack ID: 
-## GitHub ID: @kianwasabi 
+## GitHub ID: 
+@kianwasabi 
 ## About me: 
-- A paragraph about yourself.
+- Hi, it's me. Kian.
 ## Project Links:
 - Links to your SEA:ME repositories.
 
