@@ -1,4 +1,4 @@
-# FirstName LastName (Unique ID) jkim
+# FirstName LastName (Unique ID) Junho Kim (jkim)
 ## Profile Pic: None
 ## Call me by this name: junho
 ## Cohort: July 2023
