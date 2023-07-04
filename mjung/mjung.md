@@ -15,4 +15,5 @@ MC00614
 ## About me: 
 - Studying Mechanical Engineering in Inha University, South Korea.
 ## Project Links:
-- Links to your SEA:ME repositories.
+- SEA-ME-Students
+https://github.com/MC00614/SEA-ME-Students
