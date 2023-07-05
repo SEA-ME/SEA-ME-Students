@@ -30,7 +30,7 @@ public:
 
     void drive() override {
         Car::drive();
-        std::cout << "Top speed is " << topSpeed << "." << std::endl;
+        std::cout << "Top speed is c " << topSpeed << "." << std::endl;
     }
 
     ~SportsCar() {
