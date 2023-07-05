@@ -3,7 +3,7 @@
 ## Call me by this name: Evghen 
 ## Cohort: July 2023
 ## Email ID: evghen.kutsenco@gmail.com 
-## LinkedIn: NONE
+## LinkedIn: https://www.linkedin.com/in/mgr-ev%C5%BEen-kutsenko-b69145271/
 ## Slack ID: U05FH4P855J 
 ## GitHub ID: evzen25
 ## About me: 
