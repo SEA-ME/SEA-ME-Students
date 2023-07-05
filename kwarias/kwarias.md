@@ -10,6 +10,7 @@ kian@warias.eu
 ## LinkedIn: 
 @Kian David Warias
 ## Slack ID: 
+U05CR43Q4SW
 ## GitHub ID: 
 @kianwasabi 
 ## About me: 
