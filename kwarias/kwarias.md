@@ -1,7 +1,6 @@
 # FirstName kwarias
 ## Profile Pic: 
 <a> <img src="https://avatars.githubusercontent.com/u/55065075?v=4" height="auto" width="200" > </a>
->>>>>>> Stashed changes
 ## Call me by this name: 
 Kian
 ## Cohort: 
