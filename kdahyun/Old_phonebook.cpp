@@ -16,7 +16,7 @@ void add() {
     Contact newContact;
     std::string bookmark_status;
     std::cout << "Enter Name: ";
-    //std::cin.ignore();
+    std::cin.ignore();
     getline(std::cin, newContact.name);
     std::cout << "Enter Phone number: ";
     std::cin >> newContact.phoneNumber;
@@ -72,8 +72,6 @@ void remove() {
     std::string removalQuery;
     std::cout << "Enter Index or Phone Number to Remove: ";
     std::cin >> removalQuery;
-
-    std::cout << phoneMap.end();
 
     if (phoneMap.find(removalQuery) != phoneMap.end()) {
         int index = phoneMap[removalQuery];
