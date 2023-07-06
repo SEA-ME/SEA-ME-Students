@@ -2,6 +2,8 @@
 ## Profile Pic: 
 
 <img src="![dseoimg](https://github.com/dongdongO/SEA-ME-Students/assets/97011426/655617b5-8944-45ca-842a-fd4f0c1b6ce8)" width="50%" height="50%"/>
+
+
 ## Call me by this name: Dong
 ## Cohort: July 2023
 ## Email ID: jhkljhkl7268@kookmin.ac.kr
