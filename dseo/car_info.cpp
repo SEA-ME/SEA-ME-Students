@@ -3,10 +3,13 @@
 
 class Car {
     private:
+        //std::string name;
+        //int speed;
+
+    public:
         std::string name;
         int speed;
 
-    public:
         // Constructor
         Car(std::string name, int speed);
 
@@ -25,7 +28,7 @@ class Car {
 
 Car::Car(std::string name, int speed) : name(name), speed(speed) {}
 
-Car::Car(const Car& other) : name(other.name), speed(other.speed) {}
+//Car::Car(const Car& other) : name(other.name), speed(other.speed) {}
 
 Car& Car::operator=(const Car& other) {
     if (this != &other) {
@@ -49,6 +52,11 @@ int main() {
     // Create a copy of Car
     Car car2 = car1;
     car2.display();
+
+    car1.name = "Tesla";
+    car1.display();
+    car2.display();
+
 
     // Create another Car and use the assignment operator
     Car car3("Honda", 80);

@@ -1,12 +1,13 @@
-# FirstName LastName (Unique ID)
+# FirstName LastName dseo
 ## Profile Pic: 
+
 ## Call me by this name: Dong
 ## Cohort: July 2023
 ## Email ID: jhkljhkl7268@kookmin.ac.kr
-## LinkedIn: DONGHWAN
+## LinkedIn: https://www.linkedin.com/in/donghwan-seo-b77a7a262/
 ## Slack ID: DongHwan Seo
 ## GitHub ID: dongdongO
 ## About me: 
-- A paragraph about yourself.
+- Like to play bowling
 ## Project Links:
-- Links to your SEA:ME repositories.
+- https://github.com/dongdongO
