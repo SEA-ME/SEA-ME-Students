@@ -42,7 +42,7 @@ void search() {
 
     for (int i = 0; i < phonebook.size(); ++i) {
         if (phonebook[i].name == searchQuery || phonebook[i].phoneNumber == searchQuery) {
-            std::cout << phonebook[i].name << std::endl;
+            std::cout << "index : "<<i<<" name : "<< phonebook[i].name <<  std::endl;
         }
     }
 
