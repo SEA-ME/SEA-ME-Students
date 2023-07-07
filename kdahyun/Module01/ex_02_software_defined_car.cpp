@@ -14,7 +14,7 @@ public:
         std::cout << "Driving " << make << " " << model << " " << year << " edition." << std::endl;
     }
 
-    virtual ~Car() {}
+    virtual ~Car() {std::cout<<"Basic delete"<<std::endl;}
 };
 
 class AEB : public Car {
