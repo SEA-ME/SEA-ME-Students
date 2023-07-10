@@ -144,6 +144,7 @@ void AddressBook::submitContact()
         addressText->clear();
     }
 
+
     nameLine->setReadOnly(true);
     addressText->setReadOnly(true);
     addButton->setEnabled(true);

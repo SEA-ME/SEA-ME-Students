@@ -194,6 +194,21 @@ void AddressBook::removeContact()
     QString name = nameLine->text();
     QString address = addressText->toPlainText();
 
+    int button = QMessageBox::question(this,
+            tr("Confirm Remove"),
+            tr("Are you sure you want to remove \"%1\"?").arg(name),
+            QMessageBox::Yes | QMessageBox::No);
+
+        if (button == QMessageBox::Yes) {
+
+            previous();
+            contacts.remove(name);
+
+            QMessageBox::information(this, tr("Remove Successful"),
+                tr("\"%1\" has been removed from your address book.").arg(name));
+        }
+
+    /*
     if (contacts.contains(name)) {
 
         int button = QMessageBox::question(this,
@@ -210,6 +225,7 @@ void AddressBook::removeContact()
                 tr("\"%1\" has been removed from your address book.").arg(name));
         }
     }
+    */
 
     updateInterface(NavigationMode);
 }

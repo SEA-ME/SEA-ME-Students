@@ -337,7 +337,7 @@ void AddressBook::saveToFile()
 {
     QString fileName = QFileDialog::getSaveFileName(this,
         tr("Save Address Book"), "",
-        tr("Address Book (*.abk);;All Files (*)"));
+        tr("Address Book (*.txt);;All Files (*)"));
 
 //! [saveToFile() function part1]
 //! [saveToFile() function part2]
@@ -356,6 +356,7 @@ void AddressBook::saveToFile()
         QDataStream out(&file);
         out.setVersion(QDataStream::Qt_4_5);
         out << contacts;
+        out << "Hello world";
     }
 }
 //! [saveToFile() function part3]
@@ -365,7 +366,7 @@ void AddressBook::loadFromFile()
 {
     QString fileName = QFileDialog::getOpenFileName(this,
         tr("Open Address Book"), "",
-        tr("Address Book (*.abk);;All Files (*)"));
+        tr("Address Book (*.txt);;All Files (*)"));
 //! [loadFromFile() function part1]
 
 //! [loadFromFile() function part2]

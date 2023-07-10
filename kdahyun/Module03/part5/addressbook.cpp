@@ -255,8 +255,12 @@ void AddressBook::previous()
 void AddressBook::findContact()
 {
     dialog->show();
+            QMessageBox::information(this, tr("Contact Notabbbbbb Found"),
+                tr("Sorry, is not in your addreaaaaaaaaaaaaaaass book."));
 
     if (dialog->exec() == QDialog::Accepted) {
+        QMessageBox::information(this, tr("Contact Notaaaaaaaaaaa Found"),
+                tr("Sorry, is not in your addreaaaaaaaaaaaaaaass book."));
         QString contactName = dialog->getFindText();
 
         if (contacts.contains(contactName)) {

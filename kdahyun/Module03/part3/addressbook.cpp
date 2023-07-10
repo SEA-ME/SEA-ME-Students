@@ -208,15 +208,26 @@ void AddressBook::previous()
 {
     QString name = nameLine->text();
     QMap<QString, QString>::iterator i = contacts.find(name);
+    
+    QMessageBox::information(this, tr("Iterator Value"), 
+    tr("The iterator points to the key: \"%1\" and value: \"%2\".").arg(i.key()).arg(i.value()));
 
-    if (i == contacts.end()){
+
+    if (i == contacts.end()-1){
+        QMessageBox::information(this, tr("First value"), 
+        tr("The iterator points to the key: \"%1\" and value: \"%2\".").arg(i.key()).arg(i.value()));
+
         nameLine->clear();
         addressText->clear();
         return;
     }
 
-    if (i == contacts.begin())
+    if (i == contacts.begin()) {
+            QMessageBox::information(this, tr("Second Value"), 
+    tr("The iterator points to the key: \"%1\" and value: \"%2\".").arg(i.key()).arg(i.value()));
+
         i = contacts.end();
+    }
 
     i--;
     nameLine->setText(i.key());
