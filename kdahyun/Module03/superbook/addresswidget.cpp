@@ -75,13 +75,12 @@ void AddressWidget::showFindEntryDialog()
 
     if (fDialog.exec()) {
         QString name = fDialog.nameText->text();
-        // QString address = aDialog.addressText->toPlainText();
+        QString address = fDialog.addressText->toPlainText();
 
-        findEntry(name);
+        findEntry(name, address);
     }
+
 }
-
-
 
 //! [2]
 void AddressWidget::showAddEntryDialog()
@@ -98,11 +97,20 @@ void AddressWidget::showAddEntryDialog()
 //! [2]
 
 
-void AddressWidget::findEntry(QString name) {
+void AddressWidget::findEntry(QString name, QString address)
+{
+    if (!table->getContacts().contains({ name, address })) {
+        table->insertRows(0, 1, QModelIndex());
 
-    // find information
-            QMessageBox::information(this, tr("Duplicate fdasfasfdasName"),
-            tr("The name \"%1\" alrfdasfasdasdfeady exists.").arg(name));
+        QModelIndex index = table->index(0, 0, QModelIndex());
+        table->setData(index, name, Qt::EditRole);
+        index = table->index(0, 1, QModelIndex());
+        table->setData(index, address, Qt::EditRole);
+        removeTab(indexOf(newAddressTab));
+    } else {
+        QMessageBox::information(this, tr("Duplicate Name"),
+            tr("The name \"%1\" already exists.").arg(name));
+    }
 }
 
 

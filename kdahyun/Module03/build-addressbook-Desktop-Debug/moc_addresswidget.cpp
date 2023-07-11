@@ -39,17 +39,17 @@ QT_MOC_LITERAL(4, 47, 8), // "selected"
 QT_MOC_LITERAL(5, 56, 19), // "showFindEntryDialog"
 QT_MOC_LITERAL(6, 76, 9), // "findEntry"
 QT_MOC_LITERAL(7, 86, 4), // "name"
-QT_MOC_LITERAL(8, 91, 18), // "showAddEntryDialog"
-QT_MOC_LITERAL(9, 110, 8), // "addEntry"
-QT_MOC_LITERAL(10, 119, 7), // "address"
+QT_MOC_LITERAL(8, 91, 7), // "address"
+QT_MOC_LITERAL(9, 99, 18), // "showAddEntryDialog"
+QT_MOC_LITERAL(10, 118, 8), // "addEntry"
 QT_MOC_LITERAL(11, 127, 9), // "editEntry"
 QT_MOC_LITERAL(12, 137, 11) // "removeEntry"
 
     },
     "AddressWidget\0selectionChanged\0\0"
     "QItemSelection\0selected\0showFindEntryDialog\0"
-    "findEntry\0name\0showAddEntryDialog\0"
-    "addEntry\0address\0editEntry\0removeEntry"
+    "findEntry\0name\0address\0showAddEntryDialog\0"
+    "addEntry\0editEntry\0removeEntry"
 };
 #undef QT_MOC_LITERAL
 
@@ -71,20 +71,20 @@ static const uint qt_meta_data_AddressWidget[] = {
 
  // slots: name, argc, parameters, tag, flags
        5,    0,   52,    2, 0x0a /* Public */,
-       6,    1,   53,    2, 0x0a /* Public */,
-       8,    0,   56,    2, 0x0a /* Public */,
-       9,    2,   57,    2, 0x0a /* Public */,
-      11,    0,   62,    2, 0x0a /* Public */,
-      12,    0,   63,    2, 0x0a /* Public */,
+       6,    2,   53,    2, 0x0a /* Public */,
+       9,    0,   58,    2, 0x0a /* Public */,
+      10,    2,   59,    2, 0x0a /* Public */,
+      11,    0,   64,    2, 0x0a /* Public */,
+      12,    0,   65,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,    7,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString,    7,    8,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString,    7,   10,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString,    7,    8,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -99,7 +99,7 @@ void AddressWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         switch (_id) {
         case 0: _t->selectionChanged((*reinterpret_cast< const QItemSelection(*)>(_a[1]))); break;
         case 1: _t->showFindEntryDialog(); break;
-        case 2: _t->findEntry((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 2: _t->findEntry((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2]))); break;
         case 3: _t->showAddEntryDialog(); break;
         case 4: _t->addEntry((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2]))); break;
         case 5: _t->editEntry(); break;

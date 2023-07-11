@@ -14,9 +14,9 @@ EQ            = =
 
 CC            = gcc
 CXX           = g++
-DEFINES       = -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
+DEFINES       = -DQT_DEPRECATED_WARNINGS -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -g -Wall -W -D_REENTRANT -fPIC $(DEFINES)
-CXXFLAGS      = -pipe -g -Wall -W -D_REENTRANT -fPIC $(DEFINES)
+CXXFLAGS      = -pipe -g -std=gnu++11 -Wall -W -D_REENTRANT -fPIC $(DEFINES)
 INCPATH       = -I../superbook -I. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
 QMAKE         = /usr/lib/qt5/bin/qmake
 DEL_FILE      = rm -f
@@ -53,22 +53,24 @@ OBJECTS_DIR   = ./
 ####### Files
 
 SOURCES       = ../superbook/adddialog.cpp \
+		../superbook/finddialog.cpp \
 		../superbook/addresswidget.cpp \
-		../superbook/main.cpp \
 		../superbook/mainwindow.cpp \
 		../superbook/newaddresstab.cpp \
 		../superbook/tablemodel.cpp moc_adddialog.cpp \
+		moc_finddialog.cpp \
 		moc_addresswidget.cpp \
 		moc_mainwindow.cpp \
 		moc_newaddresstab.cpp \
 		moc_tablemodel.cpp
 OBJECTS       = adddialog.o \
+		finddialog.o \
 		addresswidget.o \
-		main.o \
 		mainwindow.o \
 		newaddresstab.o \
 		tablemodel.o \
 		moc_adddialog.o \
+		moc_finddialog.o \
 		moc_addresswidget.o \
 		moc_mainwindow.o \
 		moc_newaddresstab.o \
@@ -150,12 +152,13 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
 		../superbook/addressbook.pro ../superbook/adddialog.h \
+		../superbook/finddialog.h \
 		../superbook/addresswidget.h \
 		../superbook/mainwindow.h \
 		../superbook/newaddresstab.h \
 		../superbook/tablemodel.h ../superbook/adddialog.cpp \
+		../superbook/finddialog.cpp \
 		../superbook/addresswidget.cpp \
-		../superbook/main.cpp \
 		../superbook/mainwindow.cpp \
 		../superbook/newaddresstab.cpp \
 		../superbook/tablemodel.cpp
@@ -340,8 +343,8 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../superbook/adddialog.h ../superbook/addresswidget.h ../superbook/mainwindow.h ../superbook/newaddresstab.h ../superbook/tablemodel.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../superbook/adddialog.cpp ../superbook/addresswidget.cpp ../superbook/main.cpp ../superbook/mainwindow.cpp ../superbook/newaddresstab.cpp ../superbook/tablemodel.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../superbook/adddialog.h ../superbook/finddialog.h ../superbook/addresswidget.h ../superbook/mainwindow.h ../superbook/newaddresstab.h ../superbook/tablemodel.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../superbook/adddialog.cpp ../superbook/finddialog.cpp ../superbook/addresswidget.cpp ../superbook/mainwindow.cpp ../superbook/newaddresstab.cpp ../superbook/tablemodel.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -370,15 +373,20 @@ compiler_moc_predefs_make_all: moc_predefs.h
 compiler_moc_predefs_clean:
 	-$(DEL_FILE) moc_predefs.h
 moc_predefs.h: /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
-	g++ -pipe -g -Wall -W -dM -E -o moc_predefs.h /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
+	g++ -pipe -g -std=gnu++11 -Wall -W -dM -E -o moc_predefs.h /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_adddialog.cpp moc_addresswidget.cpp moc_mainwindow.cpp moc_newaddresstab.cpp moc_tablemodel.cpp
+compiler_moc_header_make_all: moc_adddialog.cpp moc_finddialog.cpp moc_addresswidget.cpp moc_mainwindow.cpp moc_newaddresstab.cpp moc_tablemodel.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_adddialog.cpp moc_addresswidget.cpp moc_mainwindow.cpp moc_newaddresstab.cpp moc_tablemodel.cpp
+	-$(DEL_FILE) moc_adddialog.cpp moc_finddialog.cpp moc_addresswidget.cpp moc_mainwindow.cpp moc_newaddresstab.cpp moc_tablemodel.cpp
 moc_adddialog.cpp: ../superbook/adddialog.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/seame-workstation11/SEA-ME-Students/kdahyun/Module03/build-addressbook-Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/seame-workstation11/SEA-ME-Students/kdahyun/Module03/superbook -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../superbook/adddialog.h -o moc_adddialog.cpp
+
+moc_finddialog.cpp: ../superbook/finddialog.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/seame-workstation11/SEA-ME-Students/kdahyun/Module03/build-addressbook-Desktop-Debug/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/seame-workstation11/SEA-ME-Students/kdahyun/Module03/superbook -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../superbook/finddialog.h -o moc_finddialog.cpp
 
 moc_addresswidget.cpp: ../superbook/addresswidget.h \
 		../superbook/newaddresstab.h \
@@ -424,18 +432,15 @@ compiler_clean: compiler_moc_predefs_clean compiler_moc_header_clean
 adddialog.o: ../superbook/adddialog.cpp ../superbook/adddialog.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o adddialog.o ../superbook/adddialog.cpp
 
+finddialog.o: ../superbook/finddialog.cpp ../superbook/finddialog.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o finddialog.o ../superbook/finddialog.cpp
+
 addresswidget.o: ../superbook/addresswidget.cpp ../superbook/adddialog.h \
 		../superbook/addresswidget.h \
 		../superbook/newaddresstab.h \
 		../superbook/tablemodel.h \
 		../superbook/finddialog.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o addresswidget.o ../superbook/addresswidget.cpp
-
-main.o: ../superbook/main.cpp ../superbook/mainwindow.h \
-		../superbook/addresswidget.h \
-		../superbook/newaddresstab.h \
-		../superbook/tablemodel.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../superbook/main.cpp
 
 mainwindow.o: ../superbook/mainwindow.cpp ../superbook/mainwindow.h \
 		../superbook/addresswidget.h \
@@ -452,6 +457,9 @@ tablemodel.o: ../superbook/tablemodel.cpp ../superbook/tablemodel.h
 
 moc_adddialog.o: moc_adddialog.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_adddialog.o moc_adddialog.cpp
+
+moc_finddialog.o: moc_finddialog.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_finddialog.o moc_finddialog.cpp
 
 moc_addresswidget.o: moc_addresswidget.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_addresswidget.o moc_addresswidget.cpp

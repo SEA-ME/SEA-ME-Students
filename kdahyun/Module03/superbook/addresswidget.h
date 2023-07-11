@@ -74,7 +74,7 @@ public:
 
 public slots:
     void showFindEntryDialog();
-    void findEntry(QString name);
+    void findEntry(QString name, QString address);
     void showAddEntryDialog();
     void addEntry(QString name, QString address);
     void editEntry();
