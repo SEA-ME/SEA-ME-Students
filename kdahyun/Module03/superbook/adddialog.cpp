@@ -1,5 +1,5 @@
 /****************************************************************************
-** This class can make new address
+**
 ** Copyright (C) 2016 The Qt Company Ltd.
 ** Contact: https://www.qt.io/licensing/
 **
@@ -49,40 +49,42 @@
 ****************************************************************************/
 
 #include "adddialog.h"
-#include "newaddresstab.h"
 
 #include <QtWidgets>
 
 //! [0]
-NewAddressTab::NewAddressTab(QWidget *parent)
+AddDialog::AddDialog(QWidget *parent)
+    : QDialog(parent)
 {
-    Q_UNUSED(parent);
+    nameLabel = new QLabel("Name");
+    addressLabel = new QLabel("Address");
+    okButton = new QPushButton("OK");
+    cancelButton = new QPushButton("Cancel");
 
-    descriptionLabel = new QLabel(tr("There are currently no contacts in your address book. "
-                                      "\nClick Add to add new contacts."));
+    nameText = new QLineEdit;
+    addressText = new QTextEdit;
 
-    addButton = new QPushButton(tr("Add"));
+    QGridLayout *gLayout = new QGridLayout;
+    gLayout->setColumnStretch(1, 2);
+    gLayout->addWidget(nameLabel, 0, 0);
+    gLayout->addWidget(nameText, 0, 1);
 
-    connect(addButton, &QAbstractButton::clicked, this, &NewAddressTab::addEntry);
+    gLayout->addWidget(addressLabel, 1, 0, Qt::AlignLeft|Qt::AlignTop);
+    gLayout->addWidget(addressText, 1, 1, Qt::AlignLeft);
 
-    mainLayout = new QVBoxLayout;
-    mainLayout->addWidget(descriptionLabel);
-    mainLayout->addWidget(addButton, 0, Qt::AlignCenter);
+    QHBoxLayout *buttonLayout = new QHBoxLayout;
+    buttonLayout->addWidget(okButton);
+    buttonLayout->addWidget(cancelButton);
 
+    gLayout->addLayout(buttonLayout, 2, 1, Qt::AlignRight);
+
+    QVBoxLayout *mainLayout = new QVBoxLayout;
+    mainLayout->addLayout(gLayout);
     setLayout(mainLayout);
+
+    connect(okButton, &QAbstractButton::clicked, this, &QDialog::accept);
+    connect(cancelButton, &QAbstractButton::clicked, this, &QDialog::reject);
+
+    setWindowTitle(tr("Add a Contact"));
 }
 //! [0]
-
-//! [1]
-void NewAddressTab::addEntry()
-{
-    AddDialog aDialog;
-
-    if (aDialog.exec()) {
-        QString name = aDialog.nameText->text();
-        QString address = aDialog.addressText->toPlainText();
-
-        emit sendDetails(name, address);
-    }
-}
-//! [1]

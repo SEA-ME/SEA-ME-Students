@@ -1,5 +1,5 @@
 /****************************************************************************
-** This class can make new address
+**
 ** Copyright (C) 2016 The Qt Company Ltd.
 ** Contact: https://www.qt.io/licensing/
 **
@@ -48,41 +48,34 @@
 **
 ****************************************************************************/
 
-#include "adddialog.h"
-#include "newaddresstab.h"
+#ifndef ADDDIALOG_H
+#define ADDDIALOG_H
 
-#include <QtWidgets>
+#include <QDialog>
+
+QT_BEGIN_NAMESPACE
+class QLabel;
+class QPushButton;
+class QTextEdit;
+class QLineEdit;
+QT_END_NAMESPACE
 
 //! [0]
-NewAddressTab::NewAddressTab(QWidget *parent)
+class AddDialog : public QDialog
 {
-    Q_UNUSED(parent);
+    Q_OBJECT
 
-    descriptionLabel = new QLabel(tr("There are currently no contacts in your address book. "
-                                      "\nClick Add to add new contacts."));
+public:
+    AddDialog(QWidget *parent = 0);
+    QLineEdit *nameText;
+    QTextEdit *addressText;
 
-    addButton = new QPushButton(tr("Add"));
-
-    connect(addButton, &QAbstractButton::clicked, this, &NewAddressTab::addEntry);
-
-    mainLayout = new QVBoxLayout;
-    mainLayout->addWidget(descriptionLabel);
-    mainLayout->addWidget(addButton, 0, Qt::AlignCenter);
-
-    setLayout(mainLayout);
-}
+private:
+    QLabel *nameLabel;
+    QLabel *addressLabel;
+    QPushButton *okButton;
+    QPushButton *cancelButton;
+};
 //! [0]
 
-//! [1]
-void NewAddressTab::addEntry()
-{
-    AddDialog aDialog;
-
-    if (aDialog.exec()) {
-        QString name = aDialog.nameText->text();
-        QString address = aDialog.addressText->toPlainText();
-
-        emit sendDetails(name, address);
-    }
-}
-//! [1]
+#endif // ADDDIALOG_H

@@ -1,5 +1,5 @@
 /****************************************************************************
-** This class can make new address
+**
 ** Copyright (C) 2016 The Qt Company Ltd.
 ** Contact: https://www.qt.io/licensing/
 **
@@ -48,41 +48,56 @@
 **
 ****************************************************************************/
 
-#include "adddialog.h"
-#include "newaddresstab.h"
+#ifndef TABLEMODEL_H
+#define TABLEMODEL_H
 
-#include <QtWidgets>
+#include <QAbstractTableModel>
+#include <QList>
 
 //! [0]
-NewAddressTab::NewAddressTab(QWidget *parent)
+
+struct Contact
 {
-    Q_UNUSED(parent);
+    QString name;
+    QString address;
 
-    descriptionLabel = new QLabel(tr("There are currently no contacts in your address book. "
-                                      "\nClick Add to add new contacts."));
-
-    addButton = new QPushButton(tr("Add"));
-
-    connect(addButton, &QAbstractButton::clicked, this, &NewAddressTab::addEntry);
-
-    mainLayout = new QVBoxLayout;
-    mainLayout->addWidget(descriptionLabel);
-    mainLayout->addWidget(addButton, 0, Qt::AlignCenter);
-
-    setLayout(mainLayout);
-}
-//! [0]
-
-//! [1]
-void NewAddressTab::addEntry()
-{
-    AddDialog aDialog;
-
-    if (aDialog.exec()) {
-        QString name = aDialog.nameText->text();
-        QString address = aDialog.addressText->toPlainText();
-
-        emit sendDetails(name, address);
+    bool operator==(const Contact &other) const
+    {
+        return name == other.name && address == other.address;
     }
+};
+
+inline QDataStream &operator<<(QDataStream &stream, const Contact &contact)
+{
+    return stream << contact.name << contact.address;
 }
-//! [1]
+
+inline QDataStream &operator>>(QDataStream &stream, Contact &contact)
+{
+    return stream >> contact.name >> contact.address;
+}
+
+class TableModel : public QAbstractTableModel
+{
+    Q_OBJECT
+
+public:
+    TableModel(QObject *parent = 0);
+    TableModel(QList<Contact> contacts, QObject *parent = 0);
+
+    int rowCount(const QModelIndex &parent) const override;
+    int columnCount(const QModelIndex &parent) const override;
+    QVariant data(const QModelIndex &index, int role) const override;
+    QVariant headerData(int section, Qt::Orientation orientation, int role) const override;
+    Qt::ItemFlags flags(const QModelIndex &index) const override;
+    bool setData(const QModelIndex &index, const QVariant &value, int role = Qt::EditRole) override;
+    bool insertRows(int position, int rows, const QModelIndex &index = QModelIndex()) override;
+    bool removeRows(int position, int rows, const QModelIndex &index = QModelIndex()) override;
+    QList<Contact> getContacts() const;
+
+private:
+    QList<Contact> contacts;
+};
+//! [0]
+
+#endif // TABLEMODEL_H

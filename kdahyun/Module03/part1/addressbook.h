@@ -52,12 +52,13 @@
 #define ADDRESSBOOK_H
 
 #include <QWidget>
-
+/*
 QT_BEGIN_NAMESPACE
 class QLabel;
 class QLineEdit;
 class QTextEdit;
 QT_END_NAMESPACE
+*/
 
 //! [class definition]
 class AddressBook : public QWidget

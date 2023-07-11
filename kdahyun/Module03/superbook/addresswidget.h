@@ -1,5 +1,5 @@
 /****************************************************************************
-** This class can make new address
+**
 ** Copyright (C) 2016 The Qt Company Ltd.
 ** Contact: https://www.qt.io/licensing/
 **
@@ -48,41 +48,48 @@
 **
 ****************************************************************************/
 
-#include "adddialog.h"
+#ifndef ADDRESSWIDGET_H
+#define ADDRESSWIDGET_H
+
 #include "newaddresstab.h"
+#include "tablemodel.h"
 
-#include <QtWidgets>
+#include <QItemSelection>
+#include <QTabWidget>
+
+QT_BEGIN_NAMESPACE
+class QSortFilterProxyModel;
+class QItemSelectionModel;
+QT_END_NAMESPACE
 
 //! [0]
-NewAddressTab::NewAddressTab(QWidget *parent)
+class AddressWidget : public QTabWidget
 {
-    Q_UNUSED(parent);
+    Q_OBJECT
 
-    descriptionLabel = new QLabel(tr("There are currently no contacts in your address book. "
-                                      "\nClick Add to add new contacts."));
+public:
+    AddressWidget(QWidget *parent = 0);
+    void readFromFile(const QString &fileName);
+    void writeToFile(const QString &fileName);
 
-    addButton = new QPushButton(tr("Add"));
+public slots:
+    void showFindEntryDialog();
+    void findEntry(QString name);
+    void showAddEntryDialog();
+    void addEntry(QString name, QString address);
+    void editEntry();
+    void removeEntry();
 
-    connect(addButton, &QAbstractButton::clicked, this, &NewAddressTab::addEntry);
+signals:
+    void selectionChanged (const QItemSelection &selected);
 
-    mainLayout = new QVBoxLayout;
-    mainLayout->addWidget(descriptionLabel);
-    mainLayout->addWidget(addButton, 0, Qt::AlignCenter);
+private:
+    void setupTabs();
 
-    setLayout(mainLayout);
-}
+    TableModel *table;
+    NewAddressTab *newAddressTab;
+    QSortFilterProxyModel *proxyModel;
+};
 //! [0]
 
-//! [1]
-void NewAddressTab::addEntry()
-{
-    AddDialog aDialog;
-
-    if (aDialog.exec()) {
-        QString name = aDialog.nameText->text();
-        QString address = aDialog.addressText->toPlainText();
-
-        emit sendDetails(name, address);
-    }
-}
-//! [1]
+#endif // ADDRESSWIDGET_H

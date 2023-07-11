@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.11.0, 2023-07-11T16:37:08. -->
+<!-- Written by QtCreator 4.11.0, 2023-07-11T16:37:11. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -285,8 +285,8 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/seame-workstation11/SEA-ME-Students/kdahyun/Module03/addressbook/addressbook.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/seame-workstation11/SEA-ME-Students/kdahyun/Module03/addressbook/addressbook.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/seame-workstation11/SEA-ME-Students/kdahyun/Module03/superbook/addressbook.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/seame-workstation11/SEA-ME-Students/kdahyun/Module03/superbook/addressbook.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>

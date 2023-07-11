@@ -50,6 +50,7 @@
 
 #include "adddialog.h"
 #include "addresswidget.h"
+#include "finddialog.h"
 
 #include <QtWidgets>
 
@@ -68,15 +69,26 @@ AddressWidget::AddressWidget(QWidget *parent)
 }
 //! [0]
 
+void AddressWidget::showFindEntryDialog()
+{
+    FindDialog fDialog;
+
+    if (fDialog.exec()) {
+        QString name = fDialog.nameText->text();
+        // QString address = aDialog.addressText->toPlainText();
+
+        findEntry(name);
+    }
+}
+
+
+
 //! [2]
 void AddressWidget::showAddEntryDialog()
 {
     AddDialog aDialog;
 
     if (aDialog.exec()) {
-
-        QMessageBox::information(this, tr("Duplicate Name"),
-            tr("The namealready exists."));
         QString name = aDialog.nameText->text();
         QString address = aDialog.addressText->toPlainText();
 
@@ -84,6 +96,16 @@ void AddressWidget::showAddEntryDialog()
     }
 }
 //! [2]
+
+
+void AddressWidget::findEntry(QString name) {
+
+    // find information
+            QMessageBox::information(this, tr("Duplicate fdasfasfdasName"),
+            tr("The name \"%1\" alrfdasfasdasdfeady exists.").arg(name));
+}
+
+
 
 //! [3]
 void AddressWidget::addEntry(QString name, QString address)
@@ -168,44 +190,38 @@ void AddressWidget::removeEntry()
 //! [1]
 void AddressWidget::setupTabs()
 {
-    QStringList groups;
-    groups << "ABC" << "DEF" << "GHI" << "JKL" << "MNO" << "PQR" << "STU" << "VW" << "XYZ";
+    // Create a QSortFilterProxyModel.
+    proxyModel = new QSortFilterProxyModel(this);
+    proxyModel->setSourceModel(table);
 
-    for (int i = 0; i < groups.size(); ++i) {
-        QString str = groups.at(i);
-        QString regExp = QString("^[%1].*").arg(str);
+    // Create a QTableView.
+    QTableView *tableView = new QTableView;
 
-        proxyModel = new QSortFilterProxyModel(this);
-        proxyModel->setSourceModel(table);
-        proxyModel->setFilterRegExp(QRegExp(regExp, Qt::CaseInsensitive));
-        proxyModel->setFilterKeyColumn(0);
+    // Set the model for the table view.
+    tableView->setModel(proxyModel);
 
-        QTableView *tableView = new QTableView;
-        tableView->setModel(proxyModel);
+    // Set other properties for the table view.
+    tableView->setSelectionBehavior(QAbstractItemView::SelectRows);
+    tableView->horizontalHeader()->setStretchLastSection(true);
+    tableView->verticalHeader()->show();
+    tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    tableView->setSelectionMode(QAbstractItemView::SingleSelection);
 
-        tableView->setSelectionBehavior(QAbstractItemView::SelectRows);
-        tableView->horizontalHeader()->setStretchLastSection(false);
-        tableView->verticalHeader()->hide();
-        tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
-        tableView->setSelectionMode(QAbstractItemView::SingleSelection);
+    tableView->setSortingEnabled(true);
 
-        tableView->setSortingEnabled(true);
+    // Connect signals and slots.
+    // &QAction::triggered    &QItemSelectionModel::selectionChanged                   
+    connect(tableView->selectionModel(),
+        &QItemSelectionModel::selectionChanged,
+        this, &AddressWidget::selectionChanged);
 
-        connect(tableView->selectionModel(),
-            &QItemSelectionModel::selectionChanged,
-            this, &AddressWidget::selectionChanged);
-
-        connect(this, &QTabWidget::currentChanged, this, [this](int tabIndex) {
-            auto *tableView = qobject_cast<QTableView *>(widget(tabIndex));
-            if (tableView)
-                emit selectionChanged(tableView->selectionModel()->selection());
-        });
-
-        addTab(tableView, str);
-    }
+    // Add a new tab with the table view.                    
+    addTab(tableView, tr("All Contacts"));
 }
-//! [1]
 
+
+//! [1]
+               
 //! [7]
 void AddressWidget::readFromFile(const QString &fileName)
 {

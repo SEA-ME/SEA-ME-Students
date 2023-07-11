@@ -1,5 +1,5 @@
 /****************************************************************************
-** This class can make new address
+**
 ** Copyright (C) 2016 The Qt Company Ltd.
 ** Contact: https://www.qt.io/licensing/
 **
@@ -48,41 +48,40 @@
 **
 ****************************************************************************/
 
-#include "adddialog.h"
-#include "newaddresstab.h"
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
 
-#include <QtWidgets>
+#include "addresswidget.h"
+
+#include <QMainWindow>
 
 //! [0]
-NewAddressTab::NewAddressTab(QWidget *parent)
+class MainWindow : public QMainWindow
 {
-    Q_UNUSED(parent);
+    Q_OBJECT
 
-    descriptionLabel = new QLabel(tr("There are currently no contacts in your address book. "
-                                      "\nClick Add to add new contacts."));
+public:
+    MainWindow();
 
-    addButton = new QPushButton(tr("Add"));
+private slots:
+    void updateActions(const QItemSelection &selection);
+    void openFile();
+    void saveFile();
 
-    connect(addButton, &QAbstractButton::clicked, this, &NewAddressTab::addEntry);
+private:
+    void createMenus();
 
-    mainLayout = new QVBoxLayout;
-    mainLayout->addWidget(descriptionLabel);
-    mainLayout->addWidget(addButton, 0, Qt::AlignCenter);
-
-    setLayout(mainLayout);
-}
+    AddressWidget *addressWidget;
+    QMenu *fileMenu;
+    QMenu *toolMenu;
+    QAction *openAct;
+    QAction *saveAct;
+    QAction *exitAct;
+    QAction *addAct;
+    QAction *editAct;
+    QAction *removeAct;
+    QAction *findAct;
+};
 //! [0]
 
-//! [1]
-void NewAddressTab::addEntry()
-{
-    AddDialog aDialog;
-
-    if (aDialog.exec()) {
-        QString name = aDialog.nameText->text();
-        QString address = aDialog.addressText->toPlainText();
-
-        emit sendDetails(name, address);
-    }
-}
-//! [1]
+#endif // MAINWINDOW_H
