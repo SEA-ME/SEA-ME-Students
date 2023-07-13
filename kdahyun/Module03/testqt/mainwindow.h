@@ -68,6 +68,8 @@ private slots:
     void openFile();
     void saveFile();
 
+    void on_pushButton_clicked();
+
 private:
     void createMenus();
 
@@ -81,6 +83,7 @@ private:
     QAction *editAct;
     QAction *removeAct;
     QAction *findAct;
+
 };
 //! [0]
 

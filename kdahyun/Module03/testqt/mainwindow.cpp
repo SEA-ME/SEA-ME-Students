@@ -55,8 +55,8 @@
 #include <QMenuBar>
 
 //! [0]
-MainWindow::MainWindow()
-{
+MainWindow::MainWindow(){
+
     addressWidget = new AddressWidget;
     setCentralWidget(addressWidget);
     createMenus();

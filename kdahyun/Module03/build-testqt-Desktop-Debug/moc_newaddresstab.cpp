@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../testqt/newaddresstab.h"
+#include "../success_half/newaddresstab.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_NewAddressTab_t {
-    QByteArrayData data[6];
-    char stringdata0[49];
+    QByteArrayData data[8];
+    char stringdata0[71];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -35,12 +35,14 @@ QT_MOC_LITERAL(0, 0, 13), // "NewAddressTab"
 QT_MOC_LITERAL(1, 14, 11), // "sendDetails"
 QT_MOC_LITERAL(2, 26, 0), // ""
 QT_MOC_LITERAL(3, 27, 4), // "name"
-QT_MOC_LITERAL(4, 32, 7), // "address"
-QT_MOC_LITERAL(5, 40, 8) // "addEntry"
+QT_MOC_LITERAL(4, 32, 12), // "phone_number"
+QT_MOC_LITERAL(5, 45, 5), // "email"
+QT_MOC_LITERAL(6, 51, 10), // "bookmarked"
+QT_MOC_LITERAL(7, 62, 8) // "addEntry"
 
     },
-    "NewAddressTab\0sendDetails\0\0name\0address\0"
-    "addEntry"
+    "NewAddressTab\0sendDetails\0\0name\0"
+    "phone_number\0email\0bookmarked\0addEntry"
 };
 #undef QT_MOC_LITERAL
 
@@ -58,13 +60,13 @@ static const uint qt_meta_data_NewAddressTab[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   24,    2, 0x06 /* Public */,
+       1,    4,   24,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       5,    0,   29,    2, 0x0a /* Public */,
+       7,    0,   33,    2, 0x0a /* Public */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::QString, QMetaType::QString,    3,    4,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::Bool,    3,    4,    5,    6,
 
  // slots: parameters
     QMetaType::Void,
@@ -78,14 +80,14 @@ void NewAddressTab::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         auto *_t = static_cast<NewAddressTab *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->sendDetails((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2]))); break;
+        case 0: _t->sendDetails((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4]))); break;
         case 1: _t->addEntry(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (NewAddressTab::*)(QString , QString );
+            using _t = void (NewAddressTab::*)(QString , QString , QString , bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&NewAddressTab::sendDetails)) {
                 *result = 0;
                 return;
@@ -135,9 +137,9 @@ int NewAddressTab::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void NewAddressTab::sendDetails(QString _t1, QString _t2)
+void NewAddressTab::sendDetails(QString _t1, QString _t2, QString _t3, bool _t4)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP

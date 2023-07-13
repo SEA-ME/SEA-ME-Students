@@ -48,9 +48,11 @@
 **
 ****************************************************************************/
 
-#include "mainwindow.h"
 
 #include <QApplication>
+
+#include "mainwindow.h"
+
 
 //! [0]
 int main(int argc, char *argv[])
@@ -59,5 +61,6 @@ int main(int argc, char *argv[])
     MainWindow mw;
     mw.show();
     return app.exec();
+    //hello
 }
 //! [0]
