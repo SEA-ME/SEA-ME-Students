@@ -8,6 +8,6 @@
 ## GitHub ID:leeoodol
 ## About me:Hi I'm from south korea
 - A paragraph about yourself.
-## Project Links:
+## Project Links: soon..
 - Links to your SEA:ME repositories.
 s
