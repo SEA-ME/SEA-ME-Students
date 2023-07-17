@@ -20,6 +20,13 @@ void add() {
     getline(std::cin, newContact.name);
     std::cout << "Enter Phone number: ";
     std::cin >> newContact.phoneNumber;
+
+    // check if the phone number already exists
+    if (phoneMap.find(newContact.phoneNumber) != phoneMap.end()) {
+        std::cout << "Error: This phone number already exists. Try a different number.\n";
+        return;
+    }
+
     std::cout << "Enter Nickname: ";
     std::cin >> newContact.nickname;
     std::cout << "Bookmark Status(y/n): ";
@@ -30,10 +37,10 @@ void add() {
     else
         newContact.isBookmarked = false;
 
-
     phonebook.push_back(newContact);
     phoneMap[newContact.phoneNumber] = phonebook.size() - 1;
 }
+
 
 void search() {
     std::string searchQuery;
@@ -79,11 +86,13 @@ void remove() {
         phoneMap.erase(removalQuery);
     } 
     else {
+        std::cout<<"There is any information in this phonebook"<< std::endl;
+        /*
         int index = std::stoi(removalQuery);
         if (index >= 0 && index < phonebook.size()) {
             phoneMap.erase(phonebook[index].phoneNumber);
             phonebook.erase(phonebook.begin() + index);
-        }
+        }*/
     }
 }
 

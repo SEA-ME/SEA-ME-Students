@@ -26,12 +26,13 @@ int main(int argc, char *argv[]) {
         cerr << "Usage: " << argv[0] << " <up|down> <'string to convert'>" << endl;
         return 1;
     }
-
+   
     string action(argv[1]);
     string input;
 
     // Join all remaining arguments into one string
     for (int i = 2; i < argc; ++i) {
+        cout<<argv[i]<<endl;
         if (i > 2)
             input += " ";
         input += argv[i];
