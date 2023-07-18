@@ -16,5 +16,6 @@ MC00614
 - Studying Mechanical Engineering in Inha University, South Korea.
 ## Project Links:
 - SEA-ME-Students
-https://github.com/MC00614/SEA-ME-Students
-https://github.com/MC00614/SEA-ME-warm-up
+- https://github.com/MC00614/SEA-ME-Students
+- SEA-ME-warm-up
+- https://github.com/MC00614/SEA-ME-warm-up
