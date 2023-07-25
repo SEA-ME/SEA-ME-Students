@@ -1,6 +1,6 @@
 # Sujong Ha (sha)
 ## Profile Pic:
-## Call me by this name: Stan
+## Call me by this name: Sujong
 ## Cohort: July 2023
 ## Email ID: 12190450@inha.edu
 ## LinkedIn: [SujongHa](https://www.linkedin.com/in/%ED%95%99%EC%83%9D-%EA%B8%B0%EA%B3%84%EA%B3%B5%ED%95%99-%ED%95%98%EC%88%98%EC%A2%85-3364a6282/)
