@@ -2,7 +2,7 @@
 ## Profile Pic: 
 ## Call me by this name: Lee
 ## Cohort: July 2023
-## Email ID: seungwoo991123@gmail.com 
+## Email ID: seungwoo991123@gmail.com
 ## LinkedIn: www.linkedin.com/in/seungwoo-lee-0b4bb1281
 ## Slack ID: SEUNGWOO LEE
 ## GitHub ID: SeungWoo-L
