@@ -12,3 +12,10 @@
   Feel free to ask any questions if you have any.
 ## Project Links:
 - https://github.com/Lagavulin9/SEA-ME-Students
+- https://github.com/Lagavulin9/SEA-ME-warm-up/tree/main/Modules/Module00
+- https://github.com/Lagavulin9/SEA-ME-warm-up/tree/main/Modules/Module01
+- https://github.com/Lagavulin9/SEA-ME-warm-up/tree/main/Modules/Module02
+- https://github.com/Lagavulin9/SEA-ME-warm-up/tree/main/Modules/Module03
+
+## Sprint Links:
+- https://github.com/Lagavulin9/SEA-ME-Presentations
