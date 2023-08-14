@@ -11,6 +11,6 @@ Hokyung Park (hPark)
     - Majoring in Electronic engineering    
     - SEA:ME program student in 42Wolfsburg    
 ## Project Links:
-###[Warm Up](https://github.com/Ho-mmd/Warm-Up)
-###[DES_Project1](https://github.com/Ho-mmd/DES_Project1)
-###[DES_Project2](https://github.com/Ho-mmd/DES_Project2)
+- [Warm Up](https://github.com/Ho-mmd/Warm-Up)
+- [DES_Project1](https://github.com/Ho-mmd/DES_Project1)
+- [DES_Project2](https://github.com/Ho-mmd/DES_Project2)
