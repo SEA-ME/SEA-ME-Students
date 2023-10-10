@@ -7,6 +7,7 @@ Kian
 July 2023
 ## Email ID: 
 kian@warias.eu
+mehrretischgeschmack@gmail.com (for Google SEA:ME Google Calender)
 ## LinkedIn: 
 @Kian David Warias
 ## Slack ID: 
@@ -17,4 +18,5 @@ U05CR43Q4SW
 - Hi, it's me. Kian.
 ## Project Links:
 - Links to your SEA:ME repositories.
+https://github.com/stars/kianwasabi/lists/sea-me
 
