@@ -1,5 +1,6 @@
+
 # Anton Isakov (mbalman)
-## Profile Pic: 
+## Profile Pic: ![this is me](foto.png "Это мой кот Васька")
 ## Call me by this name: Anton
 ## Cohort: July 2024
 ## Email ID: electroautomatic@gmail.com
