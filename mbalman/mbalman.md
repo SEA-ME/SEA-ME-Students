@@ -1,6 +1,7 @@
 
 # Anton Isakov (mbalman)
-## Profile Pic: <img src="foto.png" alt="this is me"  width="200" height="200">
+## Profile Pic: 
+## <img src="foto.png" alt="this is me"  width="200" height="200">
 ## Call me by this name: Anton
 ## Cohort: July 2024
 ## Email ID: electroautomatic@gmail.com
