@@ -1,6 +1,6 @@
 # Efosa Daniel Uyi (EUYI)
 
-<img src="https://media.licdn.com/dms/image/D4E03AQFbryWg4yk5yg/profile-displayphoto-shrink_100_100/0/1699045141187?e=1725494400&v=beta&t=xbK5kj9pktsTnDxb1k4Q4j1vCLp9r-glFT3VOTAWHWI" >
+<img src="./euyi.jpg" >
 
 ## Call me by this name: Daniel
 ## Cohort: July 2024
