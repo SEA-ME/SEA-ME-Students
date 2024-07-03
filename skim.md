@@ -9,11 +9,12 @@ Joon
 sejokim@student.42seoul.kr
 ## LinkedIn:
 Kim Sejoon
+https://www.linkedin.com/in/sejokimde/
 ## Slack ID:
 Sejoon Kim
 ## GitHub ID:
 sejoonkimmm
 ## About me: 
-- A paragraph about yourself.
+interested in Cloud | DevOps | Mobility Ecosystem
 ## Project Links:
 https://github.com/sejoonkimmm/SEA-ME-Students
