@@ -1,5 +1,5 @@
 FirstName, LastName (Unique ID): Daria Yarkovska (dyarkovska)
-Profile Pic: '/home/seame/Downloads/dyarkovs.jpeg'
+Profile Pic: ![dyarkovs](https://github.com/daryark/SEA-ME-Students/assets/81414858/62da9f25-da76-4bae-8193-9233f0bb55db)
 Call me by this name: Dasha
 Cohort: July 2024
 Email ID: yarkovska11@gmail.com
