@@ -1,7 +1,6 @@
 # Ahsan Abdul Salam (asalam)
-## Profile Pic: <div align="center">
-  <img src="https://github.com/Ahsanbaloch.png" alt="Ahsan" width="100">
-</div>
+## Profile Pic: <div align="center"><img src="https://github.com/Ahsanbaloch.png" alt="Ahsan" width="100"></div>
+
 ## Call me by this name: Anie 
 ## Cohort: July 2024
 ## Email ID: ahsanbaloch899@gmail.com
