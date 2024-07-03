@@ -1,4 +1,4 @@
-# FirstName LastName (Unique ID)
+# Aleksandra Smolniakova asmolniakova
 ## Profile Pic: ![myPhoto](https://github.com/asudie/SEA-ME-Students/assets/80539245/f02f7747-e0de-49d2-bbd3-e1d6a823dcc9)
 ## Call me by this name: Sasha
 ## Cohort: July 2024
