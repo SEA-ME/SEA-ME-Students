@@ -1,5 +1,5 @@
 # Jincheol Park (jpark)
-## Profile Pic: 
+## Profile Pic: <img src="https://github.com/Clearsu/SEA-ME-Students/assets/67998022/f4a6a67f-2a34-4fb9-aa43-7dbb3c43a01d" alt="alttext" width="230" height="300">
 ## Call me by this name: Jin
 ## Cohort: July 2024
 ## Email ID: clearwater1219@gmail.com
