@@ -1,5 +1,7 @@
 # Ahsan Abdul Salam (asalam)
-## Profile Pic: ![IMG_20240410_210005_658](https://github.com/Ahsanbaloch/SEA-ME-Students/assets/39459572/70180734-0b7d-4823-8099-754db9372d47)
+## Profile Pic: <div align="center">
+  <img src="https://github.com/Ahsanbaloch.png" alt="Ahsan" width="100">
+</div>
 ## Call me by this name: Anie 
 ## Cohort: July 2024
 ## Email ID: ahsanbaloch899@gmail.com
