@@ -1,6 +1,5 @@
 # Oleh Ruban (oruban)
-## Profile Pic: 
-![Oleh Ruban's Profile Picture](IMG_20230925_162318.jpg)
+## Profile Pic: <img src="IMG_20230925_162318.jpg" width="250" height="300" alt="Oleh Ruban's Profile Picture">
 ## Call me by this name: Oleh
 ## Cohort: July 2024
 ## Email ID: oruban.de@gmail.com
