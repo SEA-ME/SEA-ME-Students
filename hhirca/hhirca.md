@@ -16,4 +16,5 @@ hirca
 ## About me: 
 - Simulation Engineer and Developer with bunch of hobbies
 ## Project Links:
-- Will update in following weeks
+- [Module00](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module00)
+- [Module01](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module01)
