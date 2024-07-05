@@ -1,8 +1,5 @@
 # FirstName LastName (Unique ID)
-## Profile Pic: 
-
-![alt text](https://drive.google.com/file/d/1LELlO_EQNSj_5i5tc9BSHgaoGiu1vwHo/view?usp=drive_link)
-
+## Profile Pic: <div><img src="https://github.com/paulobeckhauser.png" alt="Paulo" width="100"></div> 
 ## Call me by this name: Paulo
 ## Cohort: July 2024
 ## Email: pauloricardobeckhauser@gmail.com
@@ -10,7 +7,7 @@
 ## Slack: pauloricardobeckhauser@gmail.com
 ## GitHub: https://github.com/paulobeckhauser
 ## About me: 
-- A paragraph about yourself.
+- I am always open to new challenges. I really like to participate in hackathons and coding challenges. When I have free time I like to do sports and drink coffee. When I don't, I just drink coffee. 
 ## Project Links:
 - Links to your SEA:ME repositories.
 https://github.com/paulobeckhauser/SEA-ME-Students
