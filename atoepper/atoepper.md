@@ -2,7 +2,7 @@
 ## Profile Pic: 
 ## Call me by this name: Alex
 ## Cohort: July 2024
-## Email ID: alextoepper@mail.com
+## Email ID: alextoepper@gmail.com
 ## LinkedIn:
 ## Slack ID: atoepper
 ## GitHub ID: atoepper
