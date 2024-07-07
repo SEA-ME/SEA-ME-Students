@@ -1,7 +1,7 @@
 # FirstName LastName (Unique ID) 
 jisoo kim (jisookim)
 ## Profile Pic: 
-![jisookim_profile](/jkim/jisookim.jpeg)
+![jisookim_profile](/jkim/jisookim.png)
 ## Call me by this name: 
 jisoo
 ## Cohort: 
