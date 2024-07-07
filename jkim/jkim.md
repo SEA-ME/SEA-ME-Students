@@ -1,8 +1,7 @@
 # FirstName LastName (Unique ID) 
 jisoo kim (jisookim)
 ## Profile Pic: 
-<img width="295" alt="jisookim" src="https://github.com/nimo-my/SEA-ME-Students/assets/67938113/c227a070-e270-46ec-baf2-b2f432bb6cb8">
-
+![jisookim_profile](/jkim/jisookim.jpeg)
 ## Call me by this name: 
 jisoo
 ## Cohort: 
