@@ -10,4 +10,3 @@
   I like meeting new people, traveling, playing sports, programming.
 ## Project Links:
   https://github.com/Lihauzer/SEA-ME-Students.git
-  
