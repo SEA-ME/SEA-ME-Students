@@ -2,7 +2,7 @@
 ## Profile Pic: 
 ![jisookim_profile](/jkim/jisookim.png)
 ## Call me by this name: jisoo
-## Cohort: July 2023
+## Cohort: July 2024
 ## Email ID: nimmo9040@gmail.com
 ## LinkedIn:
 https://www.linkedin.com/in/jisoo-kim-521545217/
