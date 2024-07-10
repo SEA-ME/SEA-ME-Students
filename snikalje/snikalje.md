@@ -1,5 +1,6 @@
-# FirstName LastName (Unique ID)
-## Profile Pic: 
+# Shubhangi Nikalje (snikalje)
+## Profile Pic: ![image](https://github.com/Shubh02061999/SEA-ME-Students/assets/174613289/02f641da-bea3-48c5-a2c5-a71780a45c75)
+
 ## Call me by this name: Shubh
 ## Cohort: July 2023
 ## Email ID: shubhanginikalje02@gmail.com
