@@ -1,0 +1,12 @@
+# FirstName LastName (Unique ID)
+## Profile Pic: 
+## Call me by this name: Shubh
+## Cohort: July 2023
+## Email ID: shubhanginikalje02@gmail.com
+## LinkedIn: www.linkedin.com/in/shubhangi-nikalje-aa3b84193
+## Slack ID: T0338ASF4KF/ Shubhangi (SHUBH)
+## GitHub ID: 174613289/ Shubh02061999
+## About me: 
+Hi, I'm Shubhangi. I have a Bachelor's in Information Technology and a Master's in Business Innovation. I'm excited to delve into automotive and mobility industry and contribute to innovative solutions.
+
+## Project Links:
