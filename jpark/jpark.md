@@ -9,4 +9,5 @@
 ## About me: 
 - Hi, I'm Jin from South Korea and I have studied at 42Seoul. I have experienced web frontend programming through a few projects and here in SEA:ME I want to learn about imbeded systems. Nice to meet you all!
 ## Project Links:
-- 
+### Warm-up
+- https://github.com/Clearsu/SEA-ME-warm-up
