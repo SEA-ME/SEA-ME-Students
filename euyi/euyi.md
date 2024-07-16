@@ -11,4 +11,4 @@
 ## About me: 
 - Trying to learn more about everything...
 ## Project Links:
-- https://github.com/Adinkra-Ideas/SEA-ME-Students
+- https://github.com/Adinkra-Ideas?tab=repositories
