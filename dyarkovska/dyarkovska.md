@@ -10,3 +10,4 @@ About me: I'm from Ukraine.
 I did Frontend Development courses, then started 42Wolfsburg and now I'm here in SEA:ME,
 continue to broaden my skills in more IoT releated field, following my inside passion:)
 Project Links: here will be the links to my SEA:ME projects
+
