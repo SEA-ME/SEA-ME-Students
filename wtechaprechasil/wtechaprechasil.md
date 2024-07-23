@@ -1,7 +1,7 @@
 # Warunyou Techaprechasil (wtechaprechasil)
 ## Profile Pic: <img width=400 src="https://avatars.githubusercontent.com/u/175840077?v=4"/>
 ## Call me by this name: You Warunyou
-## Cohort: July 2023
+## Cohort: July 2024
 ## Email ID: warunyoutech@gmail.com
 ## LinkedIn: warunyou-techaprechasil
 ## Slack ID: Warunyou
