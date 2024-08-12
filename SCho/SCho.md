@@ -1,6 +1,6 @@
 # SEOKHUN CHO (SCho)
 ## Profile Pic
-<img src = "https://github.com/user-attachments/assets/44a286b2-a747-4acf-9975-4aedcba16c50" width="30%" height="50%">
+<img src = "https://github.com/user-attachments/assets/44a286b2-a747-4acf-9975-4aedcba16c50" width="20%" height="40%">
 
 ## Call me by this name: JO
 ## Cohort: July 2024
