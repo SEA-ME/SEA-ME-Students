@@ -1,6 +1,6 @@
 # SEOKHUN CHO (SCho)
 ## Profile Pic
-![Profile Pic](https://github.com/user-attachments/assets/bed2fec8-213a-4214-8f57-43cf2b2268fe)
+<Profile Pic src="https://github.com/user-attachments/assets/bed2fec8-213a-4214-8f57-43cf2b2268fe" width="200" height="400"/>
 ## Call me by this name: JO
 ## Cohort: July 2024
 ## Email ID: gns453@kookmin.ac.kr
