@@ -10,4 +10,4 @@
 ## About me: 
 - I'm a student who wants to study autonomous driving.
 ## Project Links:
-- https://github.com/JunSpring/SEA-ME-Students
+- https://github.com/JunSpring/SEA-ME-warm-up
