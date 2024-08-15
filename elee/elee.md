@@ -16,4 +16,4 @@
 ## About me: 
 - Interested in Robotics | Embedded programming
 ## Project Links:
-- Warm-up : https://github.com/iznue/SEA-ME-Students
+- Warm-up : https://github.com/iznue/SEA-ME-warm-up
