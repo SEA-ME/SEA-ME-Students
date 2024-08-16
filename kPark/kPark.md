@@ -1,5 +1,5 @@
 # KUNHO PARK (kPark)
-## Profile Pic: 
+## Profile Pic: ![Profile Pic]()
 ## Call me by this name: Park
 ## Cohort: July 2024
 ## Email ID: l17021323@gmail.com
