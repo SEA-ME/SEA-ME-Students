@@ -1,5 +1,5 @@
 # KUNHO PARK (kPark)
-## Profile Pic: ![Profile Pic]()
+## Profile Pic: ![Profile Pic](https://github.com/Kun-Ho/SEA-ME-Students/blob/main/kPark/%EC%82%AC%EC%A7%84.png)
 ## Call me by this name: Park
 ## Cohort: July 2024
 ## Email ID: l17021323@gmail.com
