@@ -1,0 +1,20 @@
+# ninja log v6
+175	716	1724043822720977027	CMakeFiles/m03.dir/m03_autogen/mocs_compilation.cpp.o	65d64dacb1e3dd3e
+175	725	1724043822721105736	CMakeFiles/m03.dir/main.cpp.o	165caa44a3d2e779
+176	549	1724043822721365112	CMakeFiles/m03.dir/ContactList.cpp.o	fb327a465367ce08
+73	174	1724043822715078503	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m03/build/Qt_6_7_2_for_macOS-Debug/m03_autogen/mocs_compilation.cpp	1b08f6f5f307ba2b
+73	174	1724043822715078503	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m03/build/Qt_6_7_2_for_macOS-Debug/m03_autogen/timestamp	1b08f6f5f307ba2b
+73	174	1724043822715078503	m03_autogen/mocs_compilation.cpp	1b08f6f5f307ba2b
+176	511	1724043822721281778	CMakeFiles/m03.dir/Contact.cpp.o	f29c0154313b2a7c
+73	174	1724043822715078503	m03_autogen/timestamp	1b08f6f5f307ba2b
+1	74	1724043839488717000	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m03/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	d904e64f14124c08
+74	224	1724043839668388999	build.ninja	5124186b7b116cf3
+1	65	1724043839676614491	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m03/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	d904e64f14124c08
+3	75	1724047119349232574	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m03/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	d904e64f14124c08
+80	104	1724047119426492692	m03_autogen/timestamp	1b08f6f5f307ba2b
+80	104	1724047119426492692	m03_autogen/mocs_compilation.cpp	1b08f6f5f307ba2b
+80	104	1724047119426492692	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m03/build/Qt_6_7_2_for_macOS-Debug/m03_autogen/timestamp	1b08f6f5f307ba2b
+80	104	1724047119426492692	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m03/build/Qt_6_7_2_for_macOS-Debug/m03_autogen/mocs_compilation.cpp	1b08f6f5f307ba2b
+104	736	1724047119450528814	CMakeFiles/m03.dir/mainwindow.cpp.o	c25caa7f72cce4d8
+736	818	1724047120082678040	m03.app/Contents/MacOS/m03	b471b3fbdb0cb4fe
+2	86	1724047154473970975	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m03/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	d904e64f14124c08
