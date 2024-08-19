@@ -1,0 +1,9 @@
+# ninja log v6
+1	60	1724040583667231539	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m02/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	5601be0f55457a71
+61	91	1724040583752655164	m02_autogen/timestamp	370ab7b478803494
+61	91	1724040583752655164	m02_autogen/mocs_compilation.cpp	370ab7b478803494
+61	91	1724040583752655164	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m02/build/Qt_6_7_2_for_macOS-Debug/m02_autogen/timestamp	370ab7b478803494
+61	91	1724040583752655164	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m02/build/Qt_6_7_2_for_macOS-Debug/m02_autogen/mocs_compilation.cpp	370ab7b478803494
+91	107	1724040583757793147	CMakeFiles/m02.dir/m02_autogen/mocs_compilation.cpp.o	78f8a2a6390e0814
+91	567	1724040583757925273	CMakeFiles/m02.dir/main.cpp.o	d376b6c054ed9a66
+568	601	1724040584234732096	m02	91cee7c41d10aa9d
