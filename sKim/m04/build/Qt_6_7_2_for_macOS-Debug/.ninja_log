@@ -1,0 +1,25 @@
+# ninja log v6
+180	739	1724122539335266006	CMakeFiles/m04.dir/main.cpp.o	b1e9e6a5252ec640
+73	179	1724122539329024447	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/m04_autogen/mocs_compilation.cpp	da38be7e7f642db6
+73	179	1724122539329024447	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/m04_autogen/timestamp	da38be7e7f642db6
+73	179	1724122539329024447	m04_autogen/timestamp	da38be7e7f642db6
+73	179	1724122539329024447	m04_autogen/mocs_compilation.cpp	da38be7e7f642db6
+1	79	1724122542125968000	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	6aca5e471b3a20eb
+79	228	1724122542306149889	build.ninja	419105b5060cba56
+1	65	1724122542314255521	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	6aca5e471b3a20eb
+1	68	1724123017659879097	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	6aca5e471b3a20eb
+72	88	1724123017731104011	m04_autogen/timestamp	da38be7e7f642db6
+72	88	1724123017731104011	m04_autogen/mocs_compilation.cpp	da38be7e7f642db6
+72	88	1724123017731104011	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/m04_autogen/timestamp	da38be7e7f642db6
+72	88	1724123017731104011	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/m04_autogen/mocs_compilation.cpp	da38be7e7f642db6
+88	634	1724123017747083301	CMakeFiles/m04.dir/main.cpp.o	b1e9e6a5252ec640
+2	70	1724123084558250329	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	6aca5e471b3a20eb
+74	164	1724123084715131000	m04_autogen/timestamp	da38be7e7f642db6
+74	164	1724123084715131000	m04_autogen/mocs_compilation.cpp	da38be7e7f642db6
+74	164	1724123084715131000	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/m04_autogen/timestamp	da38be7e7f642db6
+74	164	1724123084715131000	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/m04_autogen/mocs_compilation.cpp	da38be7e7f642db6
+164	752	1724123084720634135	CMakeFiles/m04.dir/main.cpp.o	b1e9e6a5252ec640
+164	763	1724123084720482761	CMakeFiles/m04.dir/m04_autogen/mocs_compilation.cpp.o	cc5db047101712c9
+763	858	1724123085320146625	m04.app/Contents/MacOS/m04	4461c60bb6f94ab8
+1	86	1724123119095371305	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	6aca5e471b3a20eb
+1	99	1724123121479415091	/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	6aca5e471b3a20eb
