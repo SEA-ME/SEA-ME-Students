@@ -1,5 +1,5 @@
-FirstName LastName (Unique ID) Hari Prasad (Hprasad)
-Profile Pic: https://avatars.githubusercontent.com/u/33652916?v=4
+# FirstName LastName (Unique ID) Hari Prasad (Hprasad)
+# Profile Pic: https://avatars.githubusercontent.com/u/33652916?v=4
 Call me by this name: Hari
 Cohort: September 2024
 Email ID: hariprasad311988@gmail.com
