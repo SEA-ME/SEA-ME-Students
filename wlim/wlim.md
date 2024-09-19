@@ -10,3 +10,5 @@
 - I'm from South Korea, and I love coding
 ## Project Links:
 - https://github.com/LWJ0513/SEA-ME-Students
+- https://github.com/LWJ0513/DES_PiRacer-Assembly
+- https://github.com/LWJ0513/DES_Instrument-Cluster
