@@ -11,4 +11,4 @@
 ## About me: 
 - Trying to learn more about everything...
 ## Project Links:
-- [Car Instrument Cluster](https://github.com/Adinkra-Ideas/Car-instrument)
+- [Vehicle Instrument Cluster](https://github.com/Adinkra-Ideas/Car-instrument)
