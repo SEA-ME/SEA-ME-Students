@@ -9,4 +9,4 @@ Slack ID            :Archana Kotha
 GitHub ID           :archana1306
 About me            :Im just a simple women who love exploring new things
 
-Project Links       :https://github.com/archana1306/seame_project1
+Project Links       :https://github.com/archana1306
