@@ -17,3 +17,4 @@
 - Interested in Robotics | Embedded programming
 ## Project Links:
 - Warm-up : https://github.com/iznue/SEA-ME-warm-up
+- DES_Instrument-Cluster : https://github.com/Instrument-Cluster-Team7/DES_Instrument-Cluster-Team7
