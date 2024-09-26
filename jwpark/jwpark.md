@@ -17,4 +17,4 @@
 ## About me: 
 - I want to learn as much as I can
 ## Project Links:
-- https://github.com/jwoon0906/2024_SEA-ME_Project.git
+- https://github.com/jwoon0906/24_SEAME_DES2_Instrument_Cluster
