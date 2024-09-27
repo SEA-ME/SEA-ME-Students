@@ -4,7 +4,7 @@
 ## Profile Pic: 
 ![alt text](20230925_144646.jpg)
 ## Call me by this name: 
-### Jangwoon
+### Jangwoon (or maybe just "Jang")
 ## Cohort: July 2024
 ## Email ID: 
 ### jwoon0906@naver.com
@@ -17,4 +17,5 @@
 ## About me: 
 - I want to learn as much as I can
 ## Project Links:
-- https://github.com/jwoon0906/2024_SEA-ME_Project.git
+DES2_Instrument_Cluter(Done)
+- https://github.com/jwoon0906/24_SEAME_DES2_Instrument_Cluster
