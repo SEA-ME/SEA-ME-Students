@@ -1,9 +1,0 @@
-/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/m04.dir
-/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/edit_cache.dir
-/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
-/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/list_install_components.dir
-/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/install.dir
-/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/install/local.dir
-/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/install/strip.dir
-/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/m04_autogen_timestamp_deps.dir
-/Users/kimseungjoo/Desktop/SEA-ME-Students/sKim/m04/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/m04_autogen.dir
