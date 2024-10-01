@@ -13,8 +13,10 @@
 ## Slack ID: 
 - U07A4U245B7
 ## GitHub ID: 
-- 127531101
+- 127531101 - BadrKC
 ## About me: 
 - Junior Embedded Software Engineer, my skills are developed in low-level embedded software in the Automotive industry and I am looking forward to making a great achievement within the SEA:ME program :)
 ## Project Links:
-- [Links to my SEA:ME repositories.](https://github.com/BadrKC/SEA-ME-Students)
+- [Links to my SEA:ME repositories.](https://github.com/BadrKC/SEA-ME-Students)  
+DES_Instrument-Cluster: https://github.com/sejoonkimmm/Car-instrument  
+DES_Head-Unit: https://github.com/Adinkra-Ideas/Car-Head-Unit
