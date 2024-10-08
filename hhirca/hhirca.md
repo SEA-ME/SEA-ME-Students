@@ -3,8 +3,9 @@ Hakan Hirca (hhirca)
 
 Simulation Engineer & Developer
 
-**Cohort: July 2024**<br>
 📧 hakan[at]hirca[dot]com  - :octocat: [@hirca](https://github.com/hirca) - 🔗 LinkedIn: [@hirca](https://linkedin.com/in/hirca) - 💬 Slack: @Hakan
+
+Cohort: July 2024<br>
 
 
 
