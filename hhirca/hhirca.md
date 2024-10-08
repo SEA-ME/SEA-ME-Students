@@ -5,20 +5,18 @@ Simulation Engineer & Developer
 
 **Cohort: July 2024**
 
-📧 hakan[at]hirca[dot]com  - :octocat: [@hirca](https://github.com/hirca) - 🔗 [LinkedIn: @hirca](https://linkedin.com/in/hirca) - 💬 Slack: @Hakan
+📧 hakan[at]hirca[dot]com  - :octocat: [@hirca](https://github.com/hirca) - 🔗 LinkedIn: [@hirca](https://linkedin.com/in/hirca) - 💬 Slack: @Hakan
 
 
 ## Projects
 
-- 🏎️ [DES - PiRacer Assembly](https://github.com/hirca/DES-PiRacer-Assembly)
+- 🚗 [DES - PiRacer Assembly](https://github.com/hirca/DES-PiRacer-Assembly)
 - 🎛️ [DES - Instrument Cluster](https://github.com/hirca/DES-Instrument-Cluster)
 
-## Warm-Up Session Modules
+### Warm-Up Session Modules
 
-| Module | Link |
-|--------|------|
-| Module00 | [📁](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module00) |
-| Module01 | [📁](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module01) |
-| Module02 | [📁](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module02) |
-| Module03 | [📁](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module03) |
-| Module04 | [📁](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module04) |
+- [📁 Module00](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module00)
+- [📁 Module01](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module01)
+- [📁 Module02](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module02)
+- [📁 Module03](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module03)
+- [📁 Module04](https://github.com/hirca/SEA-ME-warm-up/tree/hhirca/Modules/Module04)
