@@ -1,18 +1,12 @@
 <img align="left" width="120" height="120" style="margin-right: 20px;" src="https://github.com/hirca.png">
+Hakan Hirca
 
-# Hakan Hirca
+Simulation Engineer & Developer
 
-### Simulation Engineer & Developer
-**SEAME Cohort: July 2024**
+**Cohort: July 2024**
 
-<br clear="left">
+📧 hakan[at]hirca[dot]com  - :octocat: [@hirca](https://github.com/hirca) - 🔗 [LinkedIn: @hirca](https://linkedin.com/in/hirca) - 💬 Slack: @Hakan
 
-## Contact Information
-
-- 📧 hakan[at]hirca[dot]com
-- :octocat: [@hirca](https://github.com/hirca)
-- 🔗 [LinkedIn: @hirca](https://linkedin.com/in/hirca)
-- 💬 Slack: @Hakan
 
 ## Projects
 
