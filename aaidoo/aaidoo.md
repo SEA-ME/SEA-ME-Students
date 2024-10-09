@@ -10,3 +10,4 @@
 ## About me: 
 - Curious, trying to transition into embedded systems. I like to play FIFA and Chess :video_game:
 ## Project Links:
+- [Warm Up](https://github.com/AmosAidoo/SEA-ME-warm-up)

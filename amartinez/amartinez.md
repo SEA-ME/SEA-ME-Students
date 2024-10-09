@@ -9,4 +9,4 @@
 ## About me: 
 - Student at 42Wolfsburg. Background in International Relations
 ## Project Links:
-- Links to your SEA:ME repositories.
+- https://github.com/allisonpmc/SEA-ME-warm-up
