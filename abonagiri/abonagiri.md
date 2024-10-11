@@ -11,4 +11,6 @@
 - Bachelors Degree in Electronics
 - Interested in autonomous driving systems.
 ## Project Links:
-- Links to your SEA:ME repositories.
+- https://github.com/Automotive-Software-Development/DES-Head-Unit.git
+- https://github.com/abhinav2304/DES_PiRacer-Assembly.git
+- https://github.com/abhinav2304/DES_Instrument-Cluster.git
