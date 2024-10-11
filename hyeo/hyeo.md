@@ -14,3 +14,4 @@ My hobbies are sports and traveling. I like various sports such as soccer, swimm
 Lastly, I want to make good memories with many people through this SEA:ME program.
 ## Project Links:
 - ![Hanbin's SEA:ME repositories.](https://github.com/YEOHANBIN/SEA-ME-Students.git)
+- ![DES-Instrument Cluster](https://github.com/Instrument-Cluster-Team7/DES_Instrument-Cluster-Team7.git)
